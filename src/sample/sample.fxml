@@ -36,6 +36,11 @@
         <Button text="Sign In"
                 onAction="#handleSubmitButtonAction"/>
     </HBox>
+    <HBox spacing="10" alignment="bottom_left"
+          GridPane.columnIndex="0" GridPane.rowIndex="4">
+        <Button text="Sign In"
+                onAction="#handleSubmitButtonAction"/>
+    </HBox>
 
     <Text fx:id="actiontarget"
           GridPane.columnIndex="0" GridPane.columnSpan="2"
